@@ -1,0 +1,57 @@
+#game{
+
+}
+
+#choose{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    font-size: 400%;
+    font-weight: 600;
+    font-family: Square Peg;
+}
+
+body{
+    background-color: rgb(117, 96, 236);
+}
+
+#images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.choice{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#result{
+    font-size: 2em;
+    font-family: Square Peg;
+    font-weight: 800;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#result2{
+    font-size: 250%;
+    font-family: Square Peg;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    display: flex;
+    flex-shrink: 0.5;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
